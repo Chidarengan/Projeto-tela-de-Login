@@ -12,6 +12,7 @@
     section#login {
         width: 80vw;
         display: flex;
+        height: 250px;
 
         
     }
@@ -58,6 +59,7 @@
     section#login {
         width: 950px;
         display: flex;
+        height: 350px;
 
     }
 

@@ -124,10 +124,17 @@ form > a.botao > h1{
 
 div.campo > label{
     display: none;
+    color: white;
+}
+
+div.campo>span{
+    color: white;
     
-       
-        
-    }
+}
+
+div.campo > input{
+    background-color:#6fe0dd ;
+}
 
 section#login div.campo{
     display: flex;
