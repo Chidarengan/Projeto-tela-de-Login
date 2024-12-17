@@ -11,6 +11,9 @@
     
     section#login {
         width: 80vw;
+        display: flex;
+
+        
     }
 
     section#login > div#imagem {
@@ -22,7 +25,25 @@
     section#login > div#formulario {
         text-align: center;
         width: 100%;
+        
+       
     }
+
+   
+
+    div.campo > label {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+            
+        }
+
+    
+    
+
+    
 }
 /* telas grandes */
 @media screen and (min-width: 992px) {
@@ -36,6 +57,8 @@
     
     section#login {
         width: 950px;
+        display: flex;
+
     }
 
     section#login > div#imagem {
@@ -56,5 +79,14 @@
     div#formulario > h1 {
         font-size: 2em;
     }
+
+    div.campo > label {
+        
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+            
+        } 
 }
 
